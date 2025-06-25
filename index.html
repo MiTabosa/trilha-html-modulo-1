@@ -1,62 +1,139 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+  <meta charset="UTF-8">
+  <title>Portfólio de Milena Tabosa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #9b9b9b;
+      color: #000000;
+    }
+
+    header,
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #810303;
+      color: white;
+      border-radius: 10px;
+    }
+
+    section {
+      margin: 30px 0;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #000000;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: #000000;
+      border-left: 4px solid #ccc;
+      padding-left: 15px;
+    }
+
+    hr {
+      margin: 20px 0;
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+  <header>
+    <h1>Milena Tabosa</h1>
+    <p><strong>Desenvolvedora Front-End em formação</strong> | Em transição de carreira com foco em criar interfaces
+      acessíveis e funcionais</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou formada em Educação Física, mas foi na tecnologia que descobri minha verdadeira paixão. Estou em transição de
+      carreira e estudo com dedicação o desenvolvimento web, com ênfase no <strong>Front-End</strong>. Já participei de
+      hackathons, projetos práticos e estou sempre buscando evoluir minhas habilidades técnicas e criativas.</p>
+    <p>Tenho me aprofundado em <mark>HTML</mark>, <mark>CSS</mark>, <mark>JavaScript</mark> e também venho explorando
+      ferramentas modernas como <strong>React</strong> e <abbr title="Sistema de Controle de Versão">Git</abbr>.</p>
+
+    <h3>Frases que me inspiram</h3>
+    <blockquote>“O passado pode doer, mas você pode fugir dele ou aprender com ele.”</blockquote>
+    
+
+    <hr>
+
+    <h4>Curiosidade</h4>
+    <p>Antes da tecnologia, fui atleta (não de alto rendimento), o que me ensinou muito sobre <strong>disciplina,
+        persistência</strong> e trabalho em equipe.</p>
+  </section>
+
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+      <li><a href="https://github.com/MiTabosa/desbrave-frontend" target="_blank"><strong>Desbrave</strong></a> –
+        Plataforma desenvolvida em um hackathon, com foco em turismo acessível. Fui parte da equipe vencedora,
+        contribuindo com o Front-End.</li>
+      <li><a href="https://github.com/MiTabosa/dio-lab-open-source" target="_blank"><del>Open Source Lab</del></a> –
+        Projeto de contribuição em repositório open source durante bootcamp da DIO Santander.</li>
+        <li><a href="https://github.com/MiTabosa/Buscador-CEP/blob/main/README.md"><mark>Buscador-CEP</mark></a> É uma aplicação desenvolvida em React que permite aos usuários buscar informações detalhadas
+        de um CEP</li>
     </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <h5>Outros formatos que desenvolvo</h5>
+    <ol>
+      <li>Sites responsivos</li>
+      <li>Páginas acessíveis</li>
+      <li>Consumo de API</li>
+      <li>Manuseio de Banco de Dados</li>
+      <li>Protótipos desenvolvidos no <abbr title="Ferramenta de design de interface">Figma</abbr></li>
+    </ol>
+    <h6>Meu portfólio é uma vitrine do meu aprendizado e evolução. Estou sempre aberta a feedbacks e colaborações.
+      Acredito que a troca de experiências é fundamental para o crescimento profissional.</h6>
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <hr>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+    <p>Você pode ver mais projetos no meu <abbr title="Meu perfil no GitHub">GitHub</abbr>: <a
+        href="https://github.com/MiTabosa" target="_blank">
+        <font color="#810303">github.com/MiTabosa</font>
+      </a></p>
+  </section>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+  <section id="curiosidades">
+    <h2>Curiosidades Técnicas</h2>
+    <p>Tenho paixão por detalhes: uso <sub>tags HTML</sub> com atenção à semântica e adoro <sup>CSS</sup> com estilo bem
+      estruturado.</p>
+  </section>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+  <section id="contato">
+    <h2>Fale comigo</h2>
+    <p>Você pode me enviar um e-mail: <a href="mailto:milenatabosa19@gmail.com">milenatabosa19@gmail.com</a></p>
+    <p>Ou me acompanhar pelo <a href="https://www.linkedin.com/in/milena-tabosa-9b9891160/" target="_blank">LinkedIn</a>
+    </p>
+    <p><small>Este portfólio foi criado com HTML puro e muito carinho.</small></p>
+  </section>
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+  <footer>
+    <h6>Obrigada por visitar meu portfólio!</h6>
+    <p>© 2025 Milena Tabosa</p>
+  </footer>
 
 </body>
+
 </html>
